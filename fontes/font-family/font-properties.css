@@ -1,0 +1,16 @@
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 30px;
+
+    font-family: 'Gentium Plus', sans-serif;
+    font-stretch: expanded;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    line-height: 1.6 ;
+    text-transform: none;
+    text-decoration: underline wavy red;
+    text-align: center;
+    text-shadow: 2px 2px 1px red;
+}

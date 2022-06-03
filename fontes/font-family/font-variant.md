@@ -108,4 +108,17 @@ p{
     text-shadow: 1px 1px 1px red,
                 2px 2px 1px green; /* offset-x / offset-y / blur-radius / color */
 }
+```
+------------------------------------------------------
+
+## Short hand
+
+* Font-style, font-variant, font-weight, font-stretch, font-size, line-height e font-family.
+
+```css
+p{
+    /* -style, -variant, -weight, - stretch, -size, line-height, e -family*/
+    font: italic normal bold normal 3em/1.5 Helvetica, Arial, sans-serif;
+}
+```
 ------------------------------------------------------

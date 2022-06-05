@@ -1,0 +1,43 @@
+<!--
+    Criar um formulário de contato
+
+    1. O formulário deverá conter um título de nome Contato. Usar fieldset e legend para essa finalidade.
+
+    2. O formulário conterá 3 campos
+        - nome (input texto)
+        - email (input email)
+        - mensagem (textarea)
+
+    3. O formulário deverá conter um botão para enviar
+
+    Atenção: O formulário deverá conter regras de acessibilidade, como label para cada campo, por exemplo.
+-->
+
+<form action="post">
+    <fieldset>
+        <legend>Contato</legend>
+        <div>
+            <label for="name">Nome:</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="email">E-mail:</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Digite seu email">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="email">Mensagem</label>
+            <br>
+           <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+           <br>
+           <br>
+           <button type="submit">Enviar</button>
+        </div>
+
+    </fieldset>
+</form>

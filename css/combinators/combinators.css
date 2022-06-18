@@ -1,0 +1,15 @@
+body article h2 {
+    color: red;
+}
+
+body > ul > li {
+    color:blue;
+}
+
+button + button {
+    margin-left: 32px;
+}
+
+ul > li[class="red"] {
+    color: red;
+}

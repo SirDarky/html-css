@@ -1,0 +1,24 @@
+h1 {
+    color:blue;
+}
+
+#title {
+    color: orange;
+}
+
+.red{
+    color: red;
+}
+
+.big {
+    font-size: large;
+}
+
+[title] {
+    font-size: medium;
+}
+
+
+h1:hover, p:hover {
+    color: red;
+}

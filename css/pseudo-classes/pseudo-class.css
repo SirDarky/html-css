@@ -1,0 +1,16 @@
+ul li:first-child {
+    font-weight:bold;
+    color: blue;
+}
+
+article p:nth-last-of-type(2) {
+    color: black;
+}
+
+article p:nth-child(2) {
+    color: brown;
+}
+
+a:hover {
+    color: red;
+}

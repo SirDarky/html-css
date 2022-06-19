@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid red;
+    height: 200px;
+}
+
+.item {
+    flex: 1; /* preenche lugares vazios*/
+}

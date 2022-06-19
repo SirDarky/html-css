@@ -1,0 +1,5 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 80vh; /* 80 da viewport height*/
+}

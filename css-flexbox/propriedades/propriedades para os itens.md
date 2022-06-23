@@ -6,5 +6,5 @@
 - flex-shrink
     - O encolher do intem dentro do container.
 - flex
-    - Shorthand para "flex-basis", "flex-grow" e "flex-shrink".
+    - Shorthand para "flex-basis", (1°)"flex-grow" e (2°)"flex-shrink".
 - order

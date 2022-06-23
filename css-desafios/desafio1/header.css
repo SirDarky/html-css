@@ -1,0 +1,23 @@
+header {
+    padding: 2rem;
+    background: gray;
+}
+
+nav {
+    display: flex; /*Serve para deixar um do lado do outro*/
+    justify-content: space-between; /*espaço entre eles*/
+    align-items: center; /*Alinhar todos ao centro*/
+}
+
+ul {
+    display: flex; /*Serve para deixar um do lado do outro*/
+    list-style: none; /*Tirar o "*" da lista*/
+    gap: .8rem; /*Espaço entre eles*/
+    align-items: center; /*Alinhar todos ao centro*/
+}
+
+ul li:last-child {
+    background: black;
+    color: white;
+    padding: .8rem;/*Espaço das letras em relação a borda do botão*/
+}

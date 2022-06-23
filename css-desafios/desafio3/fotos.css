@@ -1,0 +1,11 @@
+img{
+    width: 30%;  /*Tamanho da imagem de 30% doq realmente é*/
+    height: auto;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+}
